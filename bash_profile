@@ -3,12 +3,6 @@
 # The orginal version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
 export PATH
-export PTOOLSPATH=/Users/lego/phalcon-tools/
-export PATH=$PATH:/Users/lego/phalcon-tools
-export PTOOLSPATH=/Users/lego/phalcon-tools/
-export PATH=$PATH:/Users/lego/phalcon-tools
-export PTOOLSPATH=/Users/lego/phalcon-tools/
-export PATH=$PATH:/Users/lego/phalcon-tools
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 
@@ -56,3 +50,6 @@ export NARWHAL_ENGINE=jsc
 export PATH="/usr/local/narwhal/bin:$PATH"
 
 export CAPP_BUILD="/Users/lego/Documents/Build"
+export PATH=/usr/local/narwhal/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/Users/lego/phalcon-tools:/Users/lego/phalcon-tools:/Users/lego/phalcon-tools:/usr/local/mysql/bin
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

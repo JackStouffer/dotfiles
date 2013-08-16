@@ -45,6 +45,8 @@ plugins=(git macports pip vagrant)
 
 source $ZSH/oh-my-zsh.sh
 
+export STANDUP_ENV="dev"
+
 # Customize to your needs...
 export LUA_PATH="/opt/local/share/luarocks/share/lua/5.1/?.lua;/opt/local/share/luarocks/share/lua/5.1/?/init.lua;/Users/lego/.luarocks/share/lua/5.1/?.lua;/Users/lego/.luarocks/share/lua/5.1/?/init.lua;/opt/local/share/lua/5.1//?.lua;/opt/local/share/lua/5.1//?/init.lua;./?.lua;/opt/local/share/lua/5.1/?.lua;/opt/local/share/lua/5.1/?/init.lua;/opt/local/lib/lua/5.1/?.lua;/opt/local/lib/lua/5.1/?/init.lua;$LUA_PATH"
 export LUA_CPATH="/opt/local/share/luarocks/lib/lua/5.1/?.so;/Users/lego/.luarocks/lib/lua/5.1/?.so;./?.so;/opt/local/lib/lua/5.1/?.so;/opt/local/lib/lua/5.1/loadall.so;$LUA_CPATH"

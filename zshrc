@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="af-magic"
+ZSH_THEME="robbyrussell"
 DEFAULT_USER="lego"
 
 # Example aliases
@@ -46,8 +46,14 @@ plugins=(git macports pip vagrant)
 source $ZSH/oh-my-zsh.sh
 
 export STANDUP_ENV="dev"
+export FOLLOW_ENV="dev"
+
+alias bower='noglob bower'
 
 # Customize to your needs...
 export LUA_PATH="/opt/local/share/luarocks/share/lua/5.1/?.lua;/opt/local/share/luarocks/share/lua/5.1/?/init.lua;/Users/lego/.luarocks/share/lua/5.1/?.lua;/Users/lego/.luarocks/share/lua/5.1/?/init.lua;/opt/local/share/lua/5.1//?.lua;/opt/local/share/lua/5.1//?/init.lua;./?.lua;/opt/local/share/lua/5.1/?.lua;/opt/local/share/lua/5.1/?/init.lua;/opt/local/lib/lua/5.1/?.lua;/opt/local/lib/lua/5.1/?/init.lua;$LUA_PATH"
 export LUA_CPATH="/opt/local/share/luarocks/lib/lua/5.1/?.so;/Users/lego/.luarocks/lib/lua/5.1/?.so;./?.so;/opt/local/lib/lua/5.1/?.so;/opt/local/lib/lua/5.1/loadall.so;$LUA_CPATH"
 export PATH=/usr:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin:/Users/lego/Documents/apollo/env/bin:/Users/lego/.rvm/gems/ruby-2.0.0-p195/bin:/Users/lego/.rvm/gems/ruby-2.0.0-p195@global/bin:/Users/lego/.rvm/rubies/ruby-2.0.0-p195/bin:/Users/lego/.rvm/bin:/usr/local/narwhal/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Users/lego/.rvm/bin
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

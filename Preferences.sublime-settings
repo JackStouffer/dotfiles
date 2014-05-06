@@ -91,6 +91,8 @@
 	"ignored_packages":
 	[
 		"Vintage",
+		"AdvancedNewFile",
+		"GitGutter",
 		"LESS"
 	],
 	"indent_guide_options":
